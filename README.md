@@ -7,7 +7,7 @@ Esta documentação fornece informações sobre a aplicação de monitoramento d
 ### Estrutura da Aplicação
 
 - **Componentização**: A aplicação foi desenvolvida utilizando componentes reutilizáveis, o que facilita a manutenção e escalabilidade. Cada componente possui uma responsabilidade clara e é facilmente testável.
-- **Gerenciamento de Estado**: Utilizamos a biblioteca Zustand para gerenciar o estado da aplicação. Essa escolha foi feita devido à sua simplicidade e leveza, permitindo um fluxo de dados claro e eficiente.
+- **Gerenciamento de Estado**: Usei a biblioteca Zustand para gerenciar o estado da aplicação. Essa escolha foi feita devido à sua simplicidade e leveza, permitindo um fluxo de dados claro e eficiente.
 
 ### Tecnologias Utilizadas
 

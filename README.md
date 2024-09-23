@@ -1,10 +1,8 @@
-# Documentação da Aplicação de Monitoramento de Equipamentos
+# Aplicação de Monitoramento de Equipamentos
 
 ## Introdução
 
 Esta documentação fornece informações sobre a aplicação de monitoramento de equipamentos em operações florestais. O foco principal é descrever as decisões tomadas durante o desenvolvimento, especificar os componentes da aplicação e fornecer instruções de uso.
-
-## Decisões de Design
 
 ### Estrutura da Aplicação
 
@@ -47,16 +45,21 @@ Esta documentação fornece informações sobre a aplicação de monitoramento d
 
 1. **Instalação**:
 
+    Faça o clone do repositório:
     ```bash
-    cd teste/diego-monte-catharin
+        git clone https://github.com/diegomontec/teste-aiko-diego-monte-catharin
     ```
-    cd seu_repositorio && \
-    npm install && \
-    npm run dev && \
-   http://localhost:3000"
+    Acesse a pasta do projeto:
+    ```bash
+        cd teste-aiko-diego-monte-catharin
+    ```
+    Instale as dependencias:
+    ```bash
+        npm install
+    ```
 
 2. **Acessando a Aplicação**:
-   Após a instalação, inicie o servidor com `npm run dev` e acesse a aplicação em [http://localhost:3000](http://localhost:3000).
+   Após a instalação, inicie o servidor com `npm run dev`
 
 3. **Interagindo com a Aplicação**:
    - **Visualização de Equipamentos**: Os equipamentos são exibidos no mapa. Clique nos marcadores para abrir o modal e ver detalhes.
